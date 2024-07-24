@@ -39,12 +39,25 @@ a {
     font-weight: 600;
     background: #1ebfc1;
     color: #fff;
+    border-radius: 14px;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
 .btn:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+
+.heading {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 116.129%;
+}
+
+.lv2 {
+    font-size: 4.2rem;
+    line-height: 133.333%;
 }
 /*=================== HEADER ===================*/
 .header {
@@ -55,6 +68,7 @@ a {
 .fixed {
     position: sticky;
     top: -42px;
+    z-index: 99;
 }
 
 .header .menu {
@@ -118,4 +132,190 @@ a {
 .header .sign-up-btn:hover {
     background: #1ebfc1;
     color: #fff;
+}
+/*=================== HEADER ===================*/
+.hero {
+    margin-top: 50px;
+}
+
+.hero .container {
+    display: flex;
+}
+
+.hero .info-block {
+    width: 51%;
+    padding: 93px 136px 93px 0;
+}
+
+.hero .info-block .sub-title {
+    color: #767e7e;
+    font-size: 1.4rem;
+}
+
+.hero .info-block .title {
+    margin-top: 18px;
+}
+
+.hero .info-block .desc {
+    width: 82%;
+    margin-top: 46px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    line-height: 177.778%;
+}
+
+.hero .info-block .btn-group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 52px;
+}
+
+.hero .info-block .play-btn {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: none;
+    color: #1ebfc1;
+    background: #fff;
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .info-block .play-btn:hover {
+    cursor: pointer;
+    background: #1ebfc1;
+    color: #fff;
+}
+
+.hero .img-block {
+    position: relative;
+    width: 49%;
+}
+
+.hero .img-block .hero-img {
+    width: 100%;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .card.courses {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 149px;
+    right: 80%;
+    min-width: 27%;
+    height: 75px;
+    padding: 18px 25px;
+    gap: 16px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .card.courses .img-wrapper {
+    position: relative;
+}
+
+.hero .card.courses .img-wrapper::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 28px;
+    bottom: 8px;
+    right: 4px;
+    border-radius: 999px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.hero .card.courses .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero .card.courses span {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .card.schedules {
+    position: absolute;
+    right: 91%;
+    top: 453px;
+    min-width: 22%;
+    height: 132px;
+    padding: 16px 25px 23px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .card.schedules .title {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .card.schedules .img-wrapper {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.hero .card.schedules .img-wrapper::after {
+    position: absolute;
+    right: 24px;
+    left: 24px;
+    bottom: -22px;
+    content: "";
+    height: 6px;
+    border-radius: 3px;
+    background: #edf1f5;
+}
+
+.hero .card.active-students {
+    position: absolute;
+    top: 500px;
+    right: 8%;
+    min-width: 36%;
+    height: 90px;
+    padding: 17px 35px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .card.active-students .title {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .card.active-students .avatar-group {
+    margin-top: 8px;
+    display: flex;
+}
+
+.hero .active-students .avatar {
+    margin-left: -7px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hero .active-students .num-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ebfc1;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
 }
