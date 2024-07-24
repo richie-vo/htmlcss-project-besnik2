@@ -44,7 +44,7 @@ a {
 }
 
 .btn:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ a {
 }
 
 .header .btn-group {
-    margin-left: 177px;
+    margin-left: auto;
     display: flex;
     align-items: center;
 }
@@ -119,12 +119,16 @@ a {
 }
 
 .header .sign-up-btn {
-    width: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 108px;
     height: 48px;
     margin-left: 12px;
     border-radius: 6px;
     border: 1px solid #1ebfc1;
     font-size: 1.6rem;
+    font-weight: 600;
     color: #1ebfc1;
     background: #fff;
 }
@@ -523,4 +527,119 @@ a {
     margin-top: 11px;
     color: #767e7e;
     font-size: 1.8rem;
+}
+/*=================== TESTIMONIAL ===================*/
+.testimonial {
+    margin-top: 164px;
+    padding: 50px 0;
+}
+
+.testimonial .main-content {
+    display: flex;
+    gap: 72px;
+}
+
+.testimonial .text-block {
+    margin-top: 37px;
+    width: 36%;
+}
+
+.testimonial .quote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 150%;
+}
+
+.testimonial .author {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 33px;
+    padding-left: 13px;
+    color: #767e7e;
+}
+
+.testimonial .author::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    left: 0;
+    height: 2px;
+    background: #070707;
+}
+
+.testimonial .author em {
+    color: #070707;
+    font-weight: 500;
+}
+
+.testimonial .btn-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.testimonial .btn-group button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2ac9bf;
+    border: none;
+}
+
+.testimonial .btn-group button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.testimonial .img-block {
+    position: relative;
+    width: 58%;
+}
+
+.testimonial .img-block img {
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    width: var(--diameter-);
+    height: var(--diameter-);
+}
+
+.testimonial .img-block img:nth-child(1) {
+    --diameter-: 78px;
+    top: 258px;
+    left: 0;
+}
+
+.testimonial .img-block img:nth-child(2) {
+    --diameter-: 92px;
+    top: 0;
+    left: 16.8%;
+}
+
+.testimonial .img-block img:nth-child(3) {
+    --diameter-: 78px;
+    bottom: 0;
+    left: 31.2%;
+}
+
+.testimonial .img-block img:nth-child(4) {
+    --diameter-: 235px;
+    top: 107px;
+    left: 40.2%;
+}
+
+.testimonial .img-block img:nth-child(5) {
+    --diameter-: 78px;
+    top: 374px;
+    right: 4.7%;
+}
+
+.testimonial .img-block img:nth-child(6) {
+    --diameter-: 110px;
+    top: 19px;
+    right: 0;
 }
