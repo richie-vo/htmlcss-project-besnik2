@@ -374,3 +374,126 @@ a {
     color: #9da6a5;
     line-height: 168.75%;
 }
+/*=================== COURSES ===================*/
+.courses {
+    margin-top: 30px;
+    padding: 50px 0 150px;
+}
+
+.courses .text-block .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.6rem;
+}
+
+.courses .text-block .title {
+    margin-top: 18px;
+}
+
+.courses .text-block .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .text-block .desc {
+    width: 45%;
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.courses .view-courses {
+    color: #1ebfc1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.course-list {
+    display: flex;
+    gap: 47px;
+    margin-top: 79px;
+}
+
+.course-item {
+    position: relative;
+    width: calc(100% / 3);
+}
+
+.course-item .thumb {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.course-item .thumb:hover {
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.course-item .info {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    right: 17px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-title a {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.course-item .fee {
+    margin-top: 16px;
+    color: #767e7e;
+}
+
+.course-item .fee strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.course-item .desc,
+.course-item .detail {
+    color: #767e7e;
+    font-size: 1.4rem;
+}
+
+.course-item .desc {
+    margin-top: 6px;
+}
+
+.course-item .detail {
+    margin-top: 18px;
+    display: flex;
+}
+
+.course-item .detail span {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.course-item .detail span + span {
+    margin-left: 10px;
+}
+
+.course-item .detail span::before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1ebfc1;
+}
