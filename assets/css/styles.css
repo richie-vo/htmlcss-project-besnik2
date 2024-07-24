@@ -89,6 +89,10 @@ a {
     text-shadow: 1px 0 0 #000;
 }
 
+.header nav .nav-item:hover a {
+    text-decoration: underline;
+}
+
 .header nav a {
     color: #2f3a3b;
 }
@@ -664,4 +668,49 @@ a {
     margin-top: 18px;
     color: #767e7e;
     font-size: 1.8rem;
+}
+/*=================== FOOTER ===================*/
+.footer {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column-title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .column ul:not(.column:last-child ul) {
+    margin-top: 26px;
+}
+
+.footer .column:last-child ul {
+    margin-top: 18px;
+}
+
+.footer li a {
+    color: #535353;
+}
+
+.footer li + li {
+    margin-top: 18px;
+}
+
+.footer .column:last-child li {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.copyright {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
