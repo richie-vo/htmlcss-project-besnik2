@@ -497,3 +497,30 @@ a {
     border-radius: 50%;
     background: #1ebfc1;
 }
+/*=================== STATS ===================*/
+.stats {
+    margin-top: 189px;
+    padding: 50px 0;
+}
+
+.stats .main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.stats-list {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stats-item .qty {
+    display: block;
+}
+
+.stats-item .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
