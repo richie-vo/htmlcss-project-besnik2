@@ -29,7 +29,7 @@ a {
     margin-right: auto;
 }
 
-.btn {
+.get-started-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ a {
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
-.btn:hover {
+.get-started-btn:hover {
     opacity: 0.8;
     cursor: pointer;
 }
@@ -642,4 +642,26 @@ a {
     --diameter-: 110px;
     top: 19px;
     right: 0;
+}
+/*=================== CTA ===================*/
+.cta {
+    margin-top: 80px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.cta .main-content {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+}
+
+.cta .text-block {
+    min-width: 36%;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
 }
