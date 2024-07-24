@@ -133,7 +133,7 @@ a {
     background: #1ebfc1;
     color: #fff;
 }
-/*=================== HEADER ===================*/
+/*=================== HERO ===================*/
 .hero {
     margin-top: 50px;
 }
@@ -318,4 +318,59 @@ a {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+/*=================== FEATURES ===================*/
+.features {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.features .text-block {
+    max-width: 51%;
+}
+
+.features .text-block .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.6rem;
+}
+
+.features .text-block .title {
+    margin-top: 18px;
+}
+
+.features .text-block .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.feature-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+}
+
+.feature-item:first-child {
+    width: 16.5%;
+}
+
+.feature-item + .feature-item {
+    width: 22%;
+}
+
+.feature-item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature-item .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    line-height: 168.75%;
 }
